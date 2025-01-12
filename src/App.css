@@ -1,0 +1,36 @@
+ *{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+
+.content{
+    padding:0 30px;
+    background-color: rgb(16, 16, 16);
+    height: 100vh;
+    width: 100vw;
+    color: white;
+    font-family: "Graphik, sans-serif";
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+
+h1{
+    background-image: url('https://images.alphacoders.com/134/thumb-1920-1343747.png');
+    background-position: center;
+    background-size: cover;
+    paint-order: stroke;
+    line-height: 1.5;
+    font-size: 9em;
+    color: transparent;
+    text-transform: uppercase;
+    -webkit-text-stroke: 4px rgb(170, 115, 210);
+    background-clip: text;
+}
+
+.overflow-container{
+    overflow: hidden;
+}
